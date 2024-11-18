@@ -2,9 +2,9 @@
 
 # Define directories and tables to clean up
 HDFS_PROCESSED_DIR="/data/processed/status_code_counts"
-S3_BUCKET="your-s3-bucket-name"
+S3_BUCKET="my-s3-bucket-name"
 S3_DIR="processed_data"
-REDSHIFT_TABLE="your_table_name"
+REDSHIFT_TABLE="my_table_name"
 
 # Step 1: Clean up HDFS processed data
 echo "Cleaning up processed data in HDFS..."
